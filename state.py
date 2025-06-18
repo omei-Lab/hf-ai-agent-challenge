@@ -8,6 +8,12 @@ class QAState(TypedDict):
 
     # The question type (reverse, logic)
     type: str
+    
+	# The extracted keywords
+    keywords: Optional[str] = None
+
+	# The context fetched from web
+    context: Optional[str] = None
 
     # The final answer
     answer: Optional[str] = None

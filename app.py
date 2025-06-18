@@ -1,4 +1,5 @@
 import os
+import getpass
 import gradio as gr
 import requests
 import inspect
@@ -166,6 +167,9 @@ if __name__ == "__main__":
     # Check for SPACE_HOST and SPACE_ID at startup for information
     space_host_startup = os.getenv("SPACE_HOST")
     space_id_startup = os.getenv("SPACE_ID") # Get SPACE_ID at startup
+
+    if not os.environ.get("TAVILY_API_KEY"):
+        os.environ["TAVILY_API_KEY"] = getpass.getpass("Tavily API key:\n")
 
     if space_host_startup:
         print(f"✅ SPACE_HOST found: {space_host_startup}")
