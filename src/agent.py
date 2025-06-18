@@ -1,4 +1,4 @@
-from graph import build_graph
+from src.graph import build_graph
 
 class QAgent:
     def __init__(self):

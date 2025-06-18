@@ -3,32 +3,16 @@
 🎯 This repository documents my progress and learning from the [Hugging Face AI Agent course](https://huggingface.co/learn/agents) as part of a self-imposed June challenge.  
 🧠 The goal: complete the course and obtain certification before July 1st, 2025.
 
----
-
-## 📅 Challenge Timeline
-
-| Week | Focus |
-|------|-------|
-| 6/4–6/8 | Course Setup & Modules 1–2 |
-| 6/9–6/15 | Tools & Memory (Modules 3–4) |
-| 6/16–6/22 | LangChain / Transformers Agents (Modules 5–6) |
-| 6/23–6/30 | Final Project & Certification |
+> The challenge has been completed in June 18, 2025.
 
 ---
 
-## 📘 Course Notes & Demos
+## 📝 Summary
 
-- `notebooks/`: Jupyter notebooks for code experiments
-- `notes/`: Summary of key concepts from each module
-- `project/`: My final agent-based project (TBD)
+The certification program requires students to build an agent to pass at least 6 out of 20 questions chosen from GAIA Level 1.
+I implement a LangGraph-based agent to support web search and navigation. The angent can correctly answer most of the questions about web searching and reach 50% accuracy on the GAIA Level 1 test.
 
----
-
-## 🏁 Status
-
-- [ ] Course in Progress  
-- [ ] Agent project in development  
-- [ ] Certification achieved ✅ (expected before 6/30)
+![](image/graph.png)
 
 ---
 
